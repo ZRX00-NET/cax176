@@ -1,2 +1,6 @@
-conjun = 5 & 3
-bin(conjun)
+print(bin(5&3))
+print(bin(5^3))
+print(bin(5|3))
+print(bin(5&~3))
+print(bin(5&3<<3))
+print(bin(20>>3))
