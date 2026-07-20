@@ -27,7 +27,9 @@ history = ()
 #create the dictionary as requested
 course_grades = {"Math":math, "Science": science, "History": history}
 
+#loop through all the keys in dictionary
 for subject in course_grades.keys():
+    #se if and elif to define what function to call under certain condition
     if subject == "Math":
         result = getAGrade(math)
         print("The average grade for Math is: ", result)
