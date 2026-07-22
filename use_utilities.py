@@ -1,8 +1,9 @@
-from mypackage import utilities
-import math
+from sys import path
+path.append('.//mypackage')
 
-utilities.greet(Lauren)
-utilities.factorial(9)
+import utilities
+print(utilities.greet("Lauren"))
+print(utilities.factorial(9))
 
 
 
